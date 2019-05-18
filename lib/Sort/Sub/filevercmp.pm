@@ -40,8 +40,6 @@ sub gen_sorter {
 =head1 ENVIRONMENT
 
 
-=head1 SEE ALSO
-
-L<Sort::Sub>
+=head1 prepend:SEE ALSO
 
 L<Sort::filevercmp>
