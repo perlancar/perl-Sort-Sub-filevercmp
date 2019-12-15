@@ -1,11 +1,20 @@
 package Sort::Sub::filevercmp;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
 use strict;
 use warnings;
+
+sub meta {
+    return {
+        v => 1,
+        summary => 'Sort using Sort::filevercmp',
+    };
+}
 
 sub gen_sorter {
     require Sort::filevercmp;
@@ -30,9 +39,9 @@ sub gen_sorter {
 }
 
 1;
-# ABSTRACT: Sort using filevercmp
+# ABSTRACT:
 
-=for Pod::Coverage ^(gen_sorter)$
+=for Pod::Coverage ^(gen_sorter|meta)$
 
 =head1 DESCRIPTION
 
